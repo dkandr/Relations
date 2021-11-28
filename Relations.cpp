@@ -49,7 +49,7 @@ void Relations::showFriendsForNHandshakes(int count)
         for(int i = 0; i < SIZE; ++i)
             visited[i] = -1; 
         
-        visited[n] = 1;
+        visited[n] = 1; //visit at 1 wave
 
         while(wave <= count)
         {
